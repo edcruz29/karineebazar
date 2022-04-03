@@ -6,6 +6,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: var(--box-header);
 }
 .nav_itens {
   width: 100%;
@@ -48,6 +49,7 @@ input[type="search"] {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 .container {
   display: flex;

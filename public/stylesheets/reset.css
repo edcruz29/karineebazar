@@ -161,4 +161,12 @@ button {
   margin: 0;
   background-color: 0;
   border: none;
+  color: var(--destaque);
+  background-color: var(--perfilButton);
+  border-radius: 10px;
+}
+button:hover {
+  
+  color: var(--destaque);
+  background-color: var(--perfilButtonHover);
 }
