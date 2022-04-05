@@ -1,12 +1,14 @@
 body {
   display: flex;
   flex-direction: column;
+  
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: var(--box-header);
+
 }
 .nav_itens {
   width: 100%;
@@ -41,6 +43,9 @@ input[type="search"] {
   font-weight: bold;
   font-size: 1rem;
 }
+.nav_item a:hover{
+  color: #3FCDFD;
+}
 .logo img {
   width: 150px;
   height: 80px;
@@ -53,20 +58,24 @@ input[type="search"] {
 }
 .container {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   transform: translateX(0);
-  width: 1000px;
-  height: 400px;
+  width: 1200px;
+  height: 500px;
+
 }
 .carousel {
   display: inline-flex;
   box-shadow: var(--box-header);
   overflow: hidden;
-  width: 1000px;
-  height: 400px;
+  width: 1200px;
+  height: 600px;
+  border-radius: 4px;
 }
 .carousel img {
-  object-fit: cover;
+  object-fit: center;
+  width: 1600px;
+  height: 1600px;
 }
 .footer {
   margin-top: 20px;

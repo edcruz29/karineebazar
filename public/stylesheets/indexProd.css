@@ -1,11 +1,21 @@
 body{
     position: relative;
 }
+.global_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 .categorias {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 1200px;
 }
 .categorias h2{
     margin-bottom: 2rem;
@@ -20,8 +30,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
-    box-shadow: 5px 5px 15px 5px #000000;
 }
 .categorias_wraper img{
     border-radius: 5px;
@@ -31,8 +39,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
 }
 .card_produto_wraper{
     display: flex;
@@ -43,7 +51,6 @@ body{
     margin-top: 4px;
 }
 button a{
-    
     text-decoration: none;
     color: var(--white);
     font-size: 1rem;
