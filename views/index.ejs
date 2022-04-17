@@ -3,14 +3,45 @@
   <%- include('./partials/head')%>
   <body>
     <%- include('./partials/header')%>
-    <div class="global_container">
+    <div class="container-fluid ">
       <main class="main_container">
-        <div class="carousel">
-          <div class="container" id="img">
-            <img src="/images/01.png" alt="" />
-            <img src="/images/2.png" alt="" />
-            <img src="/images/3.png" alt="" />
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/01.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Teste 1</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/2.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Teste 2</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/3.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Teste 3</h5>
+                <p>Teste de propagandas</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </main>
       <section class="cards-promocionais">
@@ -29,37 +60,36 @@
       <section class="categorias">
         <h2>Moda Feminina</h2>
         <div class="categorias_wraper">
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
           
@@ -67,106 +97,102 @@
   
         <h2>Acessórios</h2>
         <div class="categorias_wraper">
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div> <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div> <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
-            </div>
-          </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
-            </div>
-          </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
         <h2>Bordados</h2>
         <div class="categorias_wraper">
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div> <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div> <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
-            </div>
-          </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
-            </div>
-          </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
         <h2>Cosméticos</h2>
         <div class="categorias_wraper">
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="card_produto">
-            <div class="card_produto_wraper">
-              <img src="https://picsum.photos/id/235/248/316" alt="imagem do produto" class="produto" />
-              <p>Nome do Produto</p>
-              <span>R$preço</span>
-              <button><a href="/produto:id">Saiba Mais!</a></button>
+          <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/id/235/248/316" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nome do Produto</h5>
+              <p class="card-text">R$ Preço do produto</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -181,7 +207,7 @@
           </div>
         </section>
     </div>
-   
     <%- include('./partials/footer')%>
+   
   </body>
 </html>

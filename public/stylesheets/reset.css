@@ -135,7 +135,7 @@ html {
 }
 body {
   line-height: 1;
-  background-color: var(--bgSite);
+  background-color: var(--bgSite) !important;
 }
 ol,
 ul {

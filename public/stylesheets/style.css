@@ -4,9 +4,6 @@ body {
   
 }
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   box-shadow: var(--box-header);
 
 }
@@ -55,6 +52,7 @@ input[type="search"] {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+ 
 }
 .container {
   display: flex;
@@ -65,29 +63,18 @@ input[type="search"] {
 
 }
 .carousel {
-  display: inline-flex;
+  display: inline-block;
   box-shadow: var(--box-header);
-  overflow: hidden;
-  width: 1300px;
-  height: 600px;
-  border-radius: 4px;
+  max-width: 1300px;
+
 }
-.carousel img {
-  object-fit: cover;
-  width: 1300px;
-  height: 900px;
-}
-.footer {
+footer .container, .py-5{
   margin-top: 50px;
   box-shadow: var(--box-header);
-  background-color: var(--icons);
+  background-color: var(--icons) !important;
   padding: 10px;
 }
-.footer_container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .logo_footer{
   width: 100%;
   display: flex;
@@ -95,8 +82,8 @@ input[type="search"] {
 
 }
 .logo_footer p{
-  max-width: 250px;
-  font-size: 1rem;
+  max-width: 150px;
+  font-size: 0.8rem;
   color: var(--white);
   font-weight: 500;
 }
@@ -137,3 +124,4 @@ input[type="search"] {
   font-weight: bold;
   
 }
+

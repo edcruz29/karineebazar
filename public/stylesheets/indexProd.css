@@ -9,7 +9,9 @@
 .cards-promocionais{
     width: 100%;
     max-width: 1300px;
-    margin-top: 50px;
+    
+    margin: 50px auto;
+
 }
 .cards-promocionais_container{
 
@@ -46,13 +48,13 @@
     background-color: green;
 }
 .categorias {
-    margin-top: 50px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
 }
 .categorias h2{
     margin-bottom: 2rem;
@@ -65,7 +67,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -73,11 +75,8 @@
     border-radius: 5px;
     border: var(--borda);
 }
-.card_produto{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+.card{
+    background-color:antiquewhite !important;
 }
 .card_produto_wraper{
     display: flex;
@@ -101,6 +100,7 @@ button a{
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 999;
 }
 .contato{
     width: 100%;
