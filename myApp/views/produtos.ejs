@@ -1,0 +1,288 @@
+<%- include('./partials/head')%> <%- include('./partials/header')%>
+<div class="produtos-container">
+  <div class="modal-container">
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <span>Filtros</span>
+        </button>
+      </div>
+    </nav>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Filtros</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h3>Filtros por categorias</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1"
+                    >Casual</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2"
+                    >Inverno</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault3"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault3"
+                    >Top</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault4"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault4"
+                    >Saia</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault5"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault5"
+                    >Blusa</label
+                  >
+                </div>
+              </li>
+            </ul>
+
+            <h3>Filtros por Cor</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault6"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault6"
+                    >Azul</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault7"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault7"
+                    >Rosa</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault8"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault8"
+                    >Preto</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault9"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault9"
+                    >Marrom</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault10"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault10"
+                    >Verde</label
+                  >
+                </div>
+              </li>
+            </ul>
+            <h3>Filtros por Tamanho</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault11"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault11"
+                    >P</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault12"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault12"
+                    >M</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault13"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault13"
+                    >G</label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault14"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault14"
+                    >GG/label
+                  >
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault15"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault15"
+                    >EGG</label
+                  >
+                </div>
+              </li>
+            </ul>
+            <h3>Filtros por Preço</h3>
+            <label for="customRange2" class="form-label"></label>
+            <input type="range" class="form-range" min="0" max="5" id="customRange2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="galeria-produtos">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://picsum.photos/id/235/248/316"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Nome do Produto</h5>
+        <p class="card-text">R$ Preço do produto</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://picsum.photos/id/235/248/316"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Nome do Produto</h5>
+        <p class="card-text">R$ Preço do produto</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://picsum.photos/id/235/248/316"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Nome do Produto</h5>
+        <p class="card-text">R$ Preço do produto</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </section>
+</div>
+<%- include('./partials/footer')%>

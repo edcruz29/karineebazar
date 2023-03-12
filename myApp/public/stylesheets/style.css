@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  flex-direction: column;
+  
+}
+.header {
+  box-shadow: var(--box-header);
+
+}
+.nav_itens {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.pesquisar {
+  display: flex;
+  align-items: center;
+  background-color: var(--bgSite);
+}
+nav .fa-search {
+  font-size: 1rem;
+  color: var(--link);
+}
+.pesquisar button {
+  background-color: var(--bgSite);
+  color: var(--link);
+}
+input[type="search"] {
+  border-radius: 5px;
+}
+.nav_item a {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--link);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.nav_item a:hover{
+  color: #3FCDFD;
+}
+.logo img, .logo_footer img {
+  width: 150px;
+  height: 80px;
+}
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+ 
+}
+.container {
+  display: flex;
+  transition: transform 0.2s ease-in-out;
+  transform: translateX(0);
+  width: 1300px;
+  height: 600px;
+
+}
+.carousel {
+  display: inline-block;
+  box-shadow: var(--box-header);
+  max-width: 1300px;
+
+}
+footer .container, .py-5{
+  margin-top: 50px;
+  box-shadow: var(--box-header);
+  background-color: var(--icons) !important;
+  padding: 10px;
+}
+
+.logo_footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.logo_footer p{
+  max-width: 150px;
+  font-size: 0.8rem;
+  color: var(--white);
+  font-weight: 500;
+}
+.footer_categorias{
+  width: 100%;
+}
+.footer_categorias ul{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.categorias_header{
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+.categorias_header a{
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 400;
+ 
+}
+.categorias_itens{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-text{
+  margin-top:20px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--destaque);
+  font-weight: bold;
+  
+}
+
